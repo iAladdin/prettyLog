@@ -1,7 +1,14 @@
 prettyLog
 =========
+By default, you can use `print` or `println` function to log your message, but the output is not uesful at all.
 
-Swift version prettyLog, log with more useful info,such as file name, line number and function name.
+Swift version prettyLog, log with useful info,such as file name, line number and function name. And it's smarter than before, the best log function ever.
+
+You can easy locate log's position and navigate to the line.
+
+`command+shift+o` and paste each header of line,such as `LeftMenu.swift:26`
+
+There is output sample:
 
 ```
 ------------------------------------------------------------
